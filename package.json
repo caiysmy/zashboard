@@ -1,6 +1,6 @@
 {
   "name": "zashboard",
-  "version": "3.10.1",
+  "version": "3.11.0",
   "description": "A Dashboard Using Clash API",
   "license": "MIT",
   "type": "module",
@@ -12,7 +12,6 @@
     "build:no-fonts": "FONT=none vite build",
     "build:pingfang-only": "FONT=pingfang vite build",
     "build:sarasa-only": "FONT=sarasa vite build",
-    "build:singbox": "SINGBOX_NATIVE=true vite build",
     "dev": "vite",
     "format": "prettier --write src/",
     "generate": "buf generate",
@@ -66,6 +65,7 @@
     "@tsconfig/node22": "^22.0.5",
     "@types/lodash": "^4.17.24",
     "@types/node": "^25.9.3",
+    "@types/w3c-web-usb": "^1.0.14",
     "@vitejs/plugin-vue": "^6.0.7",
     "@vitejs/plugin-vue-jsx": "^5.1.5",
     "@vue/eslint-config-prettier": "^10.2.0",
